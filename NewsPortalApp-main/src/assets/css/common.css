@@ -1,0 +1,171 @@
+nav {
+    background-color: #706e6e;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems_right {
+    list-style: none;
+    margin-left: auto;
+    display: flex
+}
+
+.navItems_left {
+    display: flex;
+}
+
+.container {
+    margin-top: 68px;
+    display: flex;
+    max-height: calc(100vh - 68px);
+}
+
+.left-section {
+    background-color: #ccc;
+    flex: 0 0 263px;
+    padding: 10px 0;
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
+}
+
+main {
+    flex: 1;
+    padding: 14px;
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
+    margin-bottom: 47px;
+
+}
+
+.subHeader {
+    position: fixed;
+    height: 60px;
+    width: 263px;
+    background-color: coral;
+    margin-top: -22px;
+    margin-left: -20px;
+}
+
+.divList {
+    margin-top: 60px;
+}
+
+
+.navItem {
+    margin-right: 20px;
+}
+
+body,
+html {
+    height: auto !important;
+}
+
+.logout-button {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:  150%;
+    height: 120%;
+    margin-right: -6px;;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+.logout-button:focus {
+    outline: none;
+}
+
+.divPagination {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 264px);
+    display: flex;
+    justify-content: center;
+    margin-left: -14px;
+    margin-right: 143px;
+    height: 45px;
+    left: 277px;
+    text-align: center;
+}
+.paginationBtn {
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 140px;
+    margin: 7px;
+    cursor: pointer;
+}
+.paginationBtnDisabled {
+    padding: 5px 20px;
+    background-color: #919eac;
+    color: #fff;
+    border-radius: 140px;
+    margin: 7px;
+}
+.paginationBtn:hover {
+    background-color: #d32f2f;
+}
+
+.sections {
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    padding: 6px 0;
+}
+.sections:hover {
+    background-color: rgba(134, 55, 150, 0.478);
+}
+.sectionSelected {
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    padding: 6px 0;
+    background-color: darkgoldenrod;
+}
+.sections span, .sectionSelected span {
+    padding-left: 10px;
+}
+
+.divArticles .grid .row .column img {
+    border-radius: 10px;
+}
+
+.btnRemove , .btnAdd {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.iconAdd, .iconRemove {
+    margin: 0px !important;
+}
+
+.btnLink {
+    cursor: pointer;
+}
+
+.loginSegment {
+    min-height: 100vh !important;
+    margin: 0px !important;
+    background-color: cadetblue;
+}
+.errorMsg {
+    color: red;
+}
+
+.loginMsg {
+    display: flex;
+    justify-content: center;
+}
